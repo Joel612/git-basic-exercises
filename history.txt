@@ -1,0 +1,171 @@
+    1  ls
+    2  ls /data
+    3  ls /
+    4  pwd
+    5  mkdir Learning_unix
+    6  ls
+    7  cd Learning_unix
+    8  mkdir Outer_directory
+    9  cd Outer_directory
+   10  mkdir Inner_directory
+   11  cd Inner_directory
+   12  cd home
+   13  pwd
+   14  cd c
+   15  cd /c/Users/User
+   16  cd /
+   17  ls -l  /c/Users/User
+   18  ls -l
+   19  ls -R
+   20  man ls
+   21  man cd
+   22  man man
+   23  cd ~/Learning_unix/Outer_directory/
+   24  rmdir Inner_directory
+   25  cd ..
+   26  rmdir Outer_directory
+   27  ls
+   28  touch heaven.txt
+   29  touch earth.txt
+   30  ls
+   31  mkdir Temp
+   32  mv heaven.txt Temp?/
+   33  mv heaven.txt /Learning_unix/Temp
+   34  mv heaven.txt Temp/
+   35  mv earth.txt Temp/
+   36  touch rags
+   37  ls rags Temp
+   38  mv rags Temp/riches
+   39  ls Temp
+   40  mv Temp/riches Temp/rags
+   41  mkdir Temp2
+   42  mv Temp2 Temp/
+   43  ls Temp/
+   44  mkdir Temp3
+   45  mv Temp3 Temp/
+   46  ls Temp/
+   47  cd Temp
+   48  ls
+   49  rm -i earth.txt heaven.txt rags
+   50  ls Temp2
+   51  rmdir Temp2/Temp3
+   52  rmdir Temp3
+   53  rmdir Temp2
+   54  ls Temp/
+   55  cd
+   56  cd ..
+   57  rmdir Temp
+   58  rmdir Temp/
+   59  touch file1
+   60  cd ..
+   61  cd /Learning_unix
+   62  cd Learning_unix
+   63  cd Learning_unix/
+   64  cd ..
+   65  cd Learning_unix/
+   66  mkdir Learning_unix
+   67  ls Learning_unix/
+   68  mkdir Learning_unix
+   69  cd Learning_unix
+   70  touch file1
+   71  cp file1 file2
+   72  ls
+   73  touch ~/file3
+   74  ls ~
+   75  cp ~/file3
+   76  cp ~/file3 Learning_unix
+   77  ls
+   78  echo "Call me Ishmael"
+   79  echo "Call me Ishmael." > opening_lines.txt
+   80  ls
+   81  less opening_lines.txt
+   82  cd Learning_unix
+   83  echo "The primroses were over." >> opening_lines.txt
+   84  cat opening_line.txt
+   85  ls opening_lines.txt
+   86  cat opening_line.txt
+   87  opening_lines.txt
+   88  cat opening_lines.txt
+   89  ls opening_lines.txt
+   90  ls -l
+   91  wc opening_lines.txt
+   92  wc -l opening_lines.txt
+   93  nano opening_lines.txt
+   94  nano opening_lines.txt
+   95  grep was opening_lines.txt
+   96  grep -v was opening_lines.txt
+   97  nano opening_lines.txt
+   98  grep was opening_lines.txt
+   99  grep -v was opening_lines.txt
+  100  grep all opening_lines.txt
+  101  grep -i all opening_lines.txt
+  102  grep in opening_lines.txt
+  103  grep -w in opening_lines.txt
+  104  grep -w o.. opening_lines.txt
+  105  grep [aeiou]t opening_lines.txt
+  106  grep -w -i [aeiou]t opening_lines.txt
+  107  grep was opening_lines.txt | wc -c
+  108  grep was opening_lines.txt | sort | head -n 3 | wc -c
+  109  git init my-repo
+  110  cd my-repo
+  111  touch README.md
+  112  git add README.md
+  113  git commit -m "add README to initial commit"
+  114  git remote add origin https://github.com/Joel612/hello-world.git
+  115  git push --set-upstream origin main
+  116  git add --all
+  117  git commit -m "initial commit"
+  118  git show-ref
+  119  git push origin HEAD:master
+  120  git clone --recursive https://github.com/Joel612/ACN-syllabus.git
+  121  mkdir git-basic-exercises
+  122  cd git-basic-exercises
+  123  ls -a
+  124  git init
+  125  ls -a
+  126  git status
+  127  touch README.md
+  128  ls -a
+  129  git status
+  130  git log
+  131  git add README.md
+  132  git status
+  133  git rm --cached README.md
+  134  git status
+  135  git add README.md
+  136  git status
+  137  git commit -m "intial commit"
+  138  git log
+  139  q
+  140  nano README.md
+  141  git status
+  142  git add README.md
+  143  git commit -m "second commit"
+  144  cat README.md
+  145  nano README.md
+  146  git commit -m "third commit"
+  147  git add README.md
+  148  git commit -m "third commit"
+  149  git log
+  150  git checkout d31198db899e512d35a665b8181a80ddfe6ce72f
+  151  cat README.md
+  152  git checkout master
+  153  cat README.md
+  154  git branch
+  155  git branch milkshake-flavours
+  156  git checkout milkshake-flavours
+  157  git branch
+  158  nano milkshakes.md
+  159  git status
+  160  git add milkshakes.md
+  161  git commit -m "added initial flavours"
+  162  git log
+  163  git branch
+  164  git branch history
+  165  git log
+  166  git checkout
+  167  git log
+  168  git branch
+  169  git checkout history
+  170  git log
+  171  history > history.txt
